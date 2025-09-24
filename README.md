@@ -1,90 +1,145 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+🌐 Project Overview
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+Elly Transportation is a responsive, multi-page transportation services website built with vanilla HTML5, CSS3, and JavaScript. This project demonstrates modern web development practices including mobile-first design, interactive components, and professional deployment.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+Live Website: https://beqqi.github.io/foundations-final-project
 
----
+![mobile design screenshot](images/screenshots/image.png)
+![tablet design screenshot](images/screenshots/image-1.png)
+![desktop design screenshot](images/screenshots/image-2.png)
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
 
-Before you write any code, take time to plan:
+🎯 Project Purpose
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+Elly Transportaion serves as a professional transportation company website that:
 
-**Goal:** Show intentional structure and user journey across the site.
+    Showcases transportation services and fleet options
 
----
+    Takes information from customers to calculate quotations
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+    Features driver profiles and customer testimonials
 
-Using your plan, begin building:
+    Delivers optimal user experience across all devices
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+📁 Project Structure
+Elly Transport/
+│
+├── index.html              # Homepage
+├── services.html           # Services & Fleet Information
+├── about.html              # About Us & Driver Profiles
+├── contact.html            # Contact Page with Form
+├── quote.html              # Interactive Form to Receive Information
+│
+├── css/
+│   └── style.css           # Main stylesheet (mobile-first)
+│
+├── js/
+│   ├── script.js           # Main JavaScript functionality
+│
+├── images/
+    ├── vehicles/           # Fleet vehicle photos
+    ├── drivers/            # Driver profile photos
+    └── screenshots/        # Project documentation
 
-Each page should:
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+🚀 Features Implemented
+✅ Core Requirements Met:
 
----
+    5 Responsive Pages with consistent navigation
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+    Mobile-First Design approach
 
-Before deployment, refactor your project to follow production-friendly practices:
+    Semantic HTML5 structure
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+    Advanced CSS3 features (Grid, Flexbox, Transitions)
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+    Interactive JavaScript 
 
----
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+🎨 Design Features:
 
-Once your project is complete, choose a method to **host your site online**.
+    Responsive Navigation with hamburger menu on mobile
 
-You can use:
+    Customer Testimonials cards
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+    Service lists
 
-Deploy your project and confirm that:
+    Smooth  transitions
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
 
-**Goal:** Publish your work online and make it accessible to the world.
+⚡ Technical Features:
 
----
+    CSS Custom Properties for consistent theming
 
-## Deliverables
+    Form Validation with user feedback
 
-1. A GitHub repository containing:
+    Performance Optimized images
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
 
----
+📱 Pages Overview
+1. Homepage (index.html)
 
-## Outcome
+    Hero section with call-to-action
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+    Quick quote call-to-action
+
+2. Services (services.html)
+
+    Services preview with icons 
+
+    Complete fleet showcase with specifications
+
+
+3. About Us (about.html)
+
+    Customer testimonials
+
+    Driver profiles with photos and bios
+
+    Customer testimonials section
+
+
+4. Contact (contact.html)
+
+    Company location and map integration
+
+    Service hours and contact information
+
+
+5. Get Quote (quote.html)
+
+    Quote form with feedback
+
+🛠️ Technologies Used
+
+    HTML5: Semantic markup, accessibility features
+
+    CSS3: Grid, Flexbox, media queries
+
+    JavaScript: DOM manipulation
+
+    Font Awesome: Professional icons
+
+    Google Fonts: Typography system
+
+🌐 Deployment
+Hosted on: GitHub Pages
+
+Deployment Steps:
+
+    Repository created at: https://github.com/beqqi/foundations-final-project.git 
+
+    GitHub Pages enabled in repository settings
+
+
+✅ Photo Credits
+      Photo by <a href="https://unsplash.com/@hya14?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">HAMZA YOUNAS</a> on <a href="https://unsplash.com/photos/gray-mercedes-benz-suv-on-brown-dirt-road-during-daytime-dLj744XVa2s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            
+      Photo by <a href="https://unsplash.com/@praswinprakashan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Praswin Prakashan</a> on <a href="https://unsplash.com/photos/a-red-car-parked-on-a-street-dGsf8Y0n2d0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            
+      Photo by <a href="https://unsplash.com/@olav_tvedt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Olav Tvedt</a> on <a href="https://unsplash.com/photos/white-vehicle-with-blue-neon-headlight-bulb--oVaYMgBMbs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+         
+      Photo by Daniel Xavier: https://www.pexels.com/photo/woman-wearing-black-eyeglasses-1239291/ 
+      Photo by Justin Shaifer: https://www.pexels.com/photo/photography-of-a-guy-wearing-green-shirt-1222271/
+      Photo by Creation Hill: https://www.pexels.com/photo/man-in-red-jacket-1681010/

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Quote</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body id="quote-page">
+    <header class="navbar">
+        <h1 class="header-title"><a href="index.html">Elly Transport</a></h1>
+        <nav class="nav-links">
+            <button class="hamburger" aria-label="Open navigation">&#9776;</button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="quote.html">Get Quote</a></li>
+            </ul>
+        </nav>  
+    </header>
+
+    <section class = "quote">
+        <h2>Get Your Quote</h2>
+        <p>Fill out the form below and we'll get back to you with a competitive quote</p>
+
+        <div id = "payment-gps">
+            <i class="fa-solid fa-lock"></i>
+            <p>Secure payment processing and live GPS tracking available after booking</p>
+        </div>
+
+        <form>
+            <div class="input-group">
+            <label for="name">Full Name <i class="fa-solid fa-asterisk"></i></label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="input-group">
+            <label for="email">Email Address <i class="fa-solid fa-asterisk"></i></label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="input-group">
+            <label for="phone">Phone Number <i class="fa-solid fa-asterisk"></i></label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="input-group">
+            <label for="service">Service Type <i class="fa-solid fa-asterisk"></i>   </label>
+            <select id="service" name="service" required>
+                <option value="">--Select Service Type--</option>
+                <option value="personal-transport">Personal Transport</option>
+                <option value="airport-transfers">Airport Transfers</option>
+                <option value="group-transport">Group Transport</option>
+            </select>
+            </div>
+
+            <div class="input-group">
+            <label for="pickup-location">Pick up Location <i class="fa-solid fa-asterisk"></i></label>
+            <input type="text" id="pickup-location" name="pickup-location" placeholder="Enter pick up location" required>
+            </div>
+
+            <div class="input-group">
+            <label for="destination">Destination <i class="fa-solid fa-asterisk"></i></label>
+            <input type="text" id="destination" name="destination" placeholder="Enter destination" required>
+            </div>
+
+
+            <label for="details">Additional Details</label>
+            <textarea id="details" name="details" rows="4" placeholder="Any specific requirements or information"></textarea>
+            
+
+            <button type="submit">Get Quote</button>
+        </form>
+
+      
+<div id="quote-modal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <h2>Quote Received</h2>
+    <p id="quote-reply"></p>
+  </div>
+</div>
+
+    </section>
+
+
+    <footer>
+        <div class ="heading">
+            <h2>Elly Transport</h2>
+            <p>Your trusted transportation partner for reliable, safe, and professional services.</p>
+        </div>
+        <div class = "footer-services">
+            <h3> Services</h3>
+            <ul>
+                <li>Personal Transport</li>
+                <li>Airport Transfers</li>
+                <li>Group Transport</li>
+                <li>24/7 Service</li>
+            </ul>
+        </div>
+        <div class = "company">
+            <h3> Company</h3>
+            <ul>
+                <li>About Us</li>
+                <li>Our Fleet</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <ul>
+                <li>+12555652134</li>
+                <li>info@ellytransport.com</li>
+                <li>123 Transport Ave City, State 12345</li>
+            </ul>
+        </div>
+        <div class="chat"><i class="fa-regular fa-comment"></i></div>
+        <p class="footer">
+            &copy; 2025 Elly Transport. All rights reserved.
+        </p>
+        <div id="chat-modal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close-chat">&times;</span>
+            <h2>Live Chat</h2>
+            <p>How can we help you today?</p>
+            <input type="text" placeholder="Type your message..." style="width:100%;padding:0.5rem; border: 1px solid #9b9b9b;">
+            <button style="margin-top:1rem;background-color: #0ea5e9;color: #fff; padding: 0.5rem 1rem; border: none; border-radius: 0.375rem;">Send</button>
+        </div>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
