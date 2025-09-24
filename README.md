@@ -2,7 +2,7 @@
 
 Elly Transportation is a responsive, multi-page transportation services website built with vanilla HTML5, CSS3, and JavaScript. This project demonstrates modern web development practices including mobile-first design, interactive components, and professional deployment.
 
-Live Website: https://beqqi.github.io/foundations-final-project
+Live Website: https://chic-muffin-0988c1.netlify.app/
 
 ![mobile design screenshot](images/screenshots/image.png)
 ![tablet design screenshot](images/screenshots/image-1.png)
